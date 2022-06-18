@@ -1,0 +1,172 @@
+.header{
+    display: flex;
+    /* justify-content: center; */
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgba(33, 33, 33, 1);
+    line-height: 16px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.logo{
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+
+    }
+.web{
+    color: rgba(33, 150, 243, 1);
+    }
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color:rgba(33, 33, 33, 1)
+}
+
+.link-contacts{
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+}
+.link-contacts:hover{
+    color: rgba(33, 150, 243, 1);
+}
+
+/*header*/
+.navigation > li {
+
+    display: inline;
+
+}
+.navigation > li :hover {
+    color: rgba(33, 150, 243, 1);
+}
+:current(.navigation > li){
+    color: rgba(33, 150, 243, 1);
+}
+
+.contacts > li{
+
+    display: inline;
+}
+
+.service-order{
+
+    background-color: rgba(33, 33, 33, 1);
+    width: 100%;
+    height: 600px;
+}
+
+/* .test{ */
+    /* position: relative; */
+/* } */
+.main-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    tab-size: 44px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}
+.order-button{
+
+    background-color: rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+}
+.order-button:hover{
+    background-color: #188ce8;
+}
+.benefits > ul{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.what-we-do > ul{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.our-team{
+    width: 100%;
+    height: 648px;
+    background-color: rgba(245, 244, 250, 1);
+}
+.team-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.our-team > ul{
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* .buttons{ */
+    /* background-color: rgba(245, 244, 250, 1); */
+    /* color: rgba(33, 33, 33, 1); */
+
+/* } */
+.content-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: rgba(245, 244, 250, 1);
+    color: rgba(33, 33, 33, 1);
+    border: none;
+    width: 145px;
+    height: 38px;
+
+}
+.buttons :hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1);
+}
+.our-works{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
