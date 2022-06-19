@@ -1,3 +1,9 @@
+:root{
+    --title-text-color: rgba(33, 33, 33, 1);
+    --accent: rgba(33, 150, 243, 1);
+    --info-text-color: rgba(117, 117, 117, 1);
+}
+
 .header{
     display: flex;
     /* justify-content: center; */
@@ -8,7 +14,7 @@ ul{
 }
 
 .logo{
-    color:rgba(33, 33, 33, 1);
+    color: var(--title-text-color);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -19,7 +25,7 @@ ul{
 
     }
 .web{
-    color: rgba(33, 150, 243, 1);
+    color: var(--accent);
     }
 .nav{
     display: flex;
@@ -33,7 +39,7 @@ ul{
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color:rgba(33, 33, 33, 1)
+    color: var(--title-text-color);
 }
 
 .link-contacts{
@@ -44,10 +50,10 @@ ul{
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: rgba(117, 117, 117, 1);
+    color: var(--info-text-color);
 }
 .link-contacts:hover{
-    color: rgba(33, 150, 243, 1);
+    color: var(--accent);
 }
 
 /*header*/
@@ -56,11 +62,12 @@ ul{
     display: inline;
 
 }
-.navigation > li :hover {
-    color: rgba(33, 150, 243, 1);
+.navigation > li :hover,
+.navigation > li :focus {
+    color: var(--accent);
 }
-:current(.navigation > li){
-    color: rgba(33, 150, 243, 1);
+.navigation > li .current{
+    color: var(--accent);
 }
 
 .contacts > li{
@@ -91,7 +98,7 @@ ul{
 }
 .order-button{
 
-    background-color: rgba(33, 150, 243, 1);
+    background-color: var(--accent);
     color: rgba(255, 255, 255, 1);
     width: 200px;
     height: 50px;
@@ -124,7 +131,7 @@ ul{
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: rgba(33, 33, 33, 1);
+    color: var(--title-text-color);
 }
 .benefits-text{
     font-family: 'Roboto', sans-serif;
@@ -133,7 +140,7 @@ ul{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: rgba(117, 117, 117, 1);
+    color: var(--info-text-color);
 }
 .what-we-do > ul{
 
@@ -149,7 +156,7 @@ ul{
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: rgba(33, 33, 33, 1);
+    color: var(--title-text-color);
 }
 .our-team{
     width: 100%;
@@ -165,7 +172,7 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     text-align: center;
-    color: rgba(33, 33, 33, 1);
+    color: var(--title-text-color);
 }
 .our-team-sub-header{
     font-family: 'Roboto', sans-serif;;
@@ -175,7 +182,7 @@ ul{
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: rgba(33, 33, 33, 1);
+    color: var(--title-text-color);
 }
 .our-team-text{
     font-family: 'Roboto', sans-serif;;
@@ -185,7 +192,7 @@ ul{
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: rgba(117, 117, 117, 1);
+    color: var(--info-text-color);
 }
 .our-team > ul{
 
@@ -210,7 +217,7 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     background-color: rgba(245, 244, 250, 1);
-    color: rgba(33, 33, 33, 1);
+    color: var(--title-text-color);
     border: none;
     width: 145px;
     height: 38px;
@@ -221,7 +228,7 @@ ul{
 }
 .buttons :hover{
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(33, 150, 243, 1);
+    background-color: var(--accent);
 }
 .our-works-header{
     opacity: 0;
@@ -233,7 +240,7 @@ ul{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: rgba(33, 33, 33, 1);
+    color: var(--title-text-color);
 }
 .our-works-text{
     font-family: 'Roboto';
@@ -242,7 +249,7 @@ ul{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: rgba(117, 117, 117, 1);
+    color: var(--info-text-color);
 }
 .our-works{
     display: flex;
