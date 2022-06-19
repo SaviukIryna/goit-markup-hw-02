@@ -2,26 +2,20 @@
     display: flex;
     /* justify-content: center; */
 }
-h3{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: rgba(33, 33, 33, 1);
-    line-height: 16px;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: rgba(117, 117, 117, 1);
-    font-size: 16px;
-    line-height: 19px;
+
+ul{
+    list-style-type: none;
 }
 
 .logo{
-    color: black;
+    color:rgba(33, 33, 33, 1);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 
     }
 .web{
@@ -33,17 +27,23 @@ p{
 }
 .link{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color:rgba(33, 33, 33, 1)
 }
 
 .link-contacts{
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-style: normal;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     color: rgba(117, 117, 117, 1);
 }
 .link-contacts:hover{
@@ -80,10 +80,13 @@ p{
 /* } */
 .main-header{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 900;
-    tab-size: 44px;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: rgba(255, 255, 255, 1);
 }
 .order-button{
@@ -93,21 +96,60 @@ p{
     width: 200px;
     height: 50px;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 }
 .order-button:hover{
     background-color: #188ce8;
 }
+.benefits-header{
+    opacity: 0;
+}
 .benefits > ul{
+
 
     display: flex;
     justify-content: space-between;
 
+}
+.benefits-sub-header{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(33, 33, 33, 1);
+}
+.benefits-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
 }
 .what-we-do > ul{
 
     display: flex;
     justify-content: space-between;
 
+}
+.what-we-do-header{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
 }
 .our-team{
     width: 100%;
@@ -116,8 +158,34 @@ p{
 }
 .team-header{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(33, 33, 33, 1);
+}
+.our-team-sub-header{
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+.our-team-text{
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
 }
 .our-team > ul{
 
@@ -135,7 +203,12 @@ p{
 /* } */
 .content-button{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
     background-color: rgba(245, 244, 250, 1);
     color: rgba(33, 33, 33, 1);
     border: none;
@@ -143,9 +216,33 @@ p{
     height: 38px;
 
 }
+.buttons{
+    display: flex;
+}
 .buttons :hover{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(33, 150, 243, 1);
+}
+.our-works-header{
+    opacity: 0;
+}
+.our-works-subheader{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: rgba(33, 33, 33, 1);
+}
+.our-works-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
 }
 .our-works{
     display: flex;
